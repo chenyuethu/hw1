@@ -35,7 +35,6 @@
 
 DROP TABLE IF EXISTS movies;
 DROP TABLE IF EXISTS actors;
-DROP TABLE IF EXISTS castings;
 
 CREATE TABLE movies (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -49,11 +48,6 @@ CREATE TABLE actors (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   actor_name TEXT,
   character_name TEXT
-);
-
-CREATE TABLE castings (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  actor_id INTEGER,
   movie_id INTEGER
 );
 
