@@ -34,20 +34,32 @@
 --   model/table. Also, include DROP TABLE IF EXISTS statements for each
 
 DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS studios;
 DROP TABLE IF EXISTS actors;
+DROP TABLE IF EXISTS castings;
 
 CREATE TABLE movies (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   title TEXT,
   releaesed_year TEXT,
   MPAA_rating TEXT,
-  studio TEXT
+  studio_id INTEGER
+);
+
+CREATE TABLE studios (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT
 );
 
 CREATE TABLE actors (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   actor_name TEXT,
   character_name TEXT
+);
+
+CREATE TABLE castings (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  actor_id INTEGER,
   movie_id INTEGER
 );
 
@@ -84,6 +96,18 @@ INSERT INTO movies (
   releaesed_year,
   MPAA_rating,
   studio
+)
+VALUES (
+  "The Dark Knight Rises",
+  "2012",
+  "PG-13",
+  "Warner Bros"
+);
+
+INSERT INTO actors (
+  actor_name,
+  character_name,
+
 )
 VALUES (
   "The Dark Knight Rises",
