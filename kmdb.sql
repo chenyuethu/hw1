@@ -36,7 +36,6 @@
 DROP TABLE IF EXISTS movies;
 DROP TABLE IF EXISTS studios;
 DROP TABLE IF EXISTS actors;
-DROP TABLE IF EXISTS castings;
 
 CREATE TABLE movies (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -54,12 +53,7 @@ CREATE TABLE studios (
 CREATE TABLE actors (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   actor_name TEXT,
-  character_name TEXT
-);
-
-CREATE TABLE castings (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  actor_id INTEGER,
+  character_name TEXT,
   movie_id INTEGER
 );
 
@@ -111,6 +105,156 @@ VALUES (
   "Warner Bros"
 );
 
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Christian Bale",
+  "Bruce Wayne",
+  1
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Michael Caine",
+  "Alfred",
+  1
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Liam Neeson",
+  "Ra's Al Ghul",
+  1
+
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Katie Holmes",
+  "Rachel Dawes",
+  1
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Gary Oldman",
+  "Commissioner Gordon",
+  1
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Christian Bale",
+  "Bruce Wayne",
+  2
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Heath Ledger",
+  "Joker",
+  2
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Aaron Eckhart",
+  "Harvey Dent",
+  2
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Michael Caine",
+  "Alfred",
+  2
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Maggie Gyllenhaal",
+  "Rachel Dawes",
+  2
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Christian Bale",
+  "Bruce Wayne",
+  3
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Gary Oldman",
+  "Commissioner Gordon",
+  3
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Tom Hardy",
+  "Bane",
+  3
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Joseph Gordon-Levitt",
+  "John Blake",
+  3
+);
+
+INSERT INTO actors (
+    actor_name,
+    character_name
+)
+VALUES (
+  "Anne Hathaway",
+  "Selina Kyle",
+  3
+);
 
 
 -- - Selection of data, so that something similar to the sample "report"
