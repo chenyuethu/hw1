@@ -69,52 +69,49 @@ INSERT INTO movies (
   title,
   releaesed_year,
   MPAA_rating,
-  studio
+  studio_id
 )
 VALUES (
   "Batman Begins",
   "2005",
   "PG-13",
-  "Warner Bros"
+  1
 );
 
 INSERT INTO movies (
   title,
   releaesed_year,
   MPAA_rating,
-  studio
+  studio_id
 )
 VALUES (
   "The Dark Knight",
   "2008",
   "PG-13",
-  "Warner Bros"
+  1
 );
 
 INSERT INTO movies (
   title,
   releaesed_year,
   MPAA_rating,
-  studio
+  studio_id
 )
 VALUES (
   "The Dark Knight Rises",
   "2012",
   "PG-13",
-  "Warner Bros"
+  1
 );
 
-INSERT INTO actors (
-  actor_name,
-  character_name,
-
+INSERT INTO studios (
+    name
 )
 VALUES (
-  "The Dark Knight Rises",
-  "2012",
-  "PG-13",
   "Warner Bros"
 );
+
+
 
 -- - Selection of data, so that something similar to the sample "report"
 --   below can be achieved.
