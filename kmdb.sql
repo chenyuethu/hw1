@@ -32,10 +32,49 @@
 -- this file and submitted via GitHub and Canvas:
 -- - A domain model, implemented via CREATE TABLE statements for each
 --   model/table. Also, include DROP TABLE IF EXISTS statements for each
---   table, so that each run of this script starts with a blank database.
+
+DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS studios;
+DROP TABLE IF EXISTS actors;
+DROP TABLE IF EXISTS castings;
+
+CREATE TABLE movies (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  title TEXT,
+  releaesed_year TEXT,
+  MPAA_rating TEXT,
+  studio_id INTEGER
+);
+
+CREATE TABLE studios (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT
+);
+
+CREATE TABLE actors (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  actor_name TEXT,
+  character_name TEXT
+);
+
+CREATE TABLE castings (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  actor_id INTEGER,
+  movie_id INTEGER
+);
+
 -- - Insertion of "Batman" sample data into tables.
+
+
+
+
+
 -- - Selection of data, so that something similar to the sample "report"
 --   below can be achieved.
+
+
+
+
 
 -- Rubric
 --
