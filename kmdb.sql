@@ -107,7 +107,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Christian Bale",
@@ -117,7 +118,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Michael Caine",
@@ -127,7 +129,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Liam Neeson",
@@ -138,7 +141,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Katie Holmes",
@@ -148,7 +152,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Gary Oldman",
@@ -158,7 +163,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Christian Bale",
@@ -168,7 +174,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Heath Ledger",
@@ -178,7 +185,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Aaron Eckhart",
@@ -188,7 +196,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Michael Caine",
@@ -198,7 +207,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Maggie Gyllenhaal",
@@ -208,7 +218,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Christian Bale",
@@ -218,7 +229,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Gary Oldman",
@@ -228,7 +240,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Tom Hardy",
@@ -238,7 +251,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Joseph Gordon-Levitt",
@@ -248,7 +262,8 @@ VALUES (
 
 INSERT INTO actors (
     actor_name,
-    character_name
+    character_name,
+    movie_id
 )
 VALUES (
   "Anne Hathaway",
