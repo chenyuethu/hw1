@@ -271,11 +271,11 @@ VALUES (
   3
 );
 
-
 -- - Selection of data, so that something similar to the sample "report"
 --   below can be achieved.
 
-
+SELECT movies.title, movies.releaesed_year, movies.MPAA_rating, studios.name
+FROM movies INNER JOIN studios ON movies.studio_id = studios.id;
 
 
 
