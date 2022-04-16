@@ -370,3 +370,6 @@ FROM movies INNER JOIN studios ON movies.studio_id = studios.id;
 
 -- The SQL statement for the cast output
 -- TODO!
+
+SELECT movies.title, actors.actor_name, actors.character_name
+FROM movies INNER JOIN actors ON movies.id = actors.movie_id;
